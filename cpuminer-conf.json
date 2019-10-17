@@ -4,11 +4,11 @@
 
 	"api-bind" : "127.0.0.1:4048",
 
-	"url" : "stratum+tcp://cpu-pool.com:63368",
-	"user" : "YgzbqDCE8vkvLiGutBy4abSxtJHjUT7a4F",
+	"url" : "stratum+tcp://swampthing.net:7233",
+	"user" : "WcN4H6sbhLeBbC6YvndY83Yh94iug6PY6R",
 	"pass" : "cpuminer",
 
-	"algo" : "yespowerr16",
+	"algo" : "yespower",
 	"threads" : 0,
 	"cpu-priority" : 0,
 	"cpu-affinity" : -1,
