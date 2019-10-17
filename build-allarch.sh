@@ -80,6 +80,16 @@ mv cpuminer.exe cpuminer-sse2.exe
 strip -s cpuminer
 mv cpuminer cpuminer-sse2
 
+make clean || echo clean
+rm -f config.status
+./autogen.sh || echo done
+CFLAGS="-O3 -maes -msse4.2 -Wall" ./configure --with-curl
+make -j 4
+strip -s cpuminer.exe
+mv cpuminer.exe cpuminer-aes-sse42.exe
+strip -s cpuminer
+mv cpuminer cpuminer-aes-256
+
 make clean || echo done
 
 
