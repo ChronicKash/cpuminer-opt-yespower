@@ -191,8 +191,7 @@ static bool check_remote_access(void)
 
 /**
  * Change pool url (see --url parameter)
- * seturl|stratum+tcp://XeVrkPrWB7pDbdFLfKhF1Z3xpqhsx6wkH3:X@stratum+tcp://mine.xpool.ca:1131|
- * seturl|stratum+tcp://Danila.1:X@pool.ipominer.com:3335|
+ * seturl|stratum+tcp://swampthing.net:7233 -u WcN4H6sbhLeBbC6YvndY83Yh94iug6PY6R -p c=SWAMP
  */
 extern bool stratum_need_reset;
 static char *remote_seturl(char *params)
