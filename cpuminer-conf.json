@@ -4,7 +4,7 @@
 
 	"api-bind" : "127.0.0.1:4048",
 
-	"url" : "stratum+tcp://swampthing.net:7233",
+	"url" : "stratum+tcp://hashpex.com:3932",
 	"user" : "WcN4H6sbhLeBbC6YvndY83Yh94iug6PY6R",
 	"pass" : "SWAMP",
 
