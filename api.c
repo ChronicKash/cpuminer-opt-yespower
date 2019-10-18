@@ -191,7 +191,7 @@ static bool check_remote_access(void)
 
 /**
  * Change pool url (see --url parameter)
- * seturl|stratum+tcp://swampthing.net:7233 -u WcN4H6sbhLeBbC6YvndY83Yh94iug6PY6R -p c=SWAMP
+ * seturl|stratum+tcp://hashpex.com:3932 -u WcN4H6sbhLeBbC6YvndY83Yh94iug6PY6R -p c=SWAMP
  */
 extern bool stratum_need_reset;
 static char *remote_seturl(char *params)
