@@ -2,7 +2,7 @@ Ready automatically switches to the new algorithm Yenten Coin
 ---------
 *Building With Linux-  use ./build.sh   than ./autogen.sh  once compiled your ready!
 
-*For Raspberry Pi 3 use ./build-allarch.sh  than ./autogen.sh (still in testing)
+
 
 *Algorithm:  YescryptR16 (will be changed to YespowerR16(yespower-1.0,N=4096,r=16) on and after 30 March 2019*
 
